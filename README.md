@@ -38,16 +38,9 @@ $ tree -L 3
 ├── trygen.py                     #data generator file
 └── utils.py
 
+## How to Use (Step-by-Step)
 
-How to Use (Step-by-Step)
 
-Clone the repositoryBashgit clone https://github.com/Mastermind305/Building-segmentation.git
-cd Building-segmentation
-Install dependenciesBashpip install -r requirements_pip.txt
-Prepare patches (MANDATORY first step)
-Open project.ipynb
-Update the paths to your large original images and corresponding binary masks
-Run only up to and including the "Create Patches" section
-This will slice everything into patches and automatically create output_merged/images/ & output_merged/masks/ with train/val/test splits
+
 
 
