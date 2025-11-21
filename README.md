@@ -40,7 +40,18 @@ $ tree -L 3
 
 ```
 
-##How to Use (Step-by-Step)
+## How to Use (Step-by-Step)
+
+
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Mastermind305/Building-segmentation.git
+```
+### 2. 2. Install dependencies
+```bash
+pip install -r requirements_pip.txt
+```
 
 
 
