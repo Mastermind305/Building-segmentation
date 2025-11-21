@@ -12,8 +12,6 @@ Accurate binary building footprint extraction from high-resolution drone/UAV ima
 
 ## Project Structure
 
-## Project Structure
-
 ```bash
 $ tree -L 3
 .
@@ -41,5 +39,15 @@ $ tree -L 3
 └── utils.py
 
 
+How to Use (Step-by-Step)
 
-**#Quick Start**
+Clone the repositoryBashgit clone https://github.com/Mastermind305/Building-segmentation.git
+cd Building-segmentation
+Install dependenciesBashpip install -r requirements_pip.txt
+Prepare patches (MANDATORY first step)
+Open project.ipynb
+Update the paths to your large original images and corresponding binary masks
+Run only up to and including the "Create Patches" section
+This will slice everything into patches and automatically create output_merged/images/ & output_merged/masks/ with train/val/test splits
+
+
