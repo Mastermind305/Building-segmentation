@@ -60,7 +60,7 @@ pip install -r requirements_pip.txt
   - Your file containing .shp file
 - Run **only the cells up to and including the "Create Patches" section**  
   → This will automatically:
-  - Crop large images and masks into smaller patches (e.g., 513×513)
+  - Cut large orthophoto and masks into smaller patches (e.g., 513×513)
   - Split them into train/validation/test sets
   - Save everything inside the `output_merged/` folder as follows:
     - `output_merged/images/train/`, `val/`, `test/`
