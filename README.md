@@ -48,11 +48,25 @@ $ tree -L 3
 ```bash
 git clone https://github.com/Mastermind305/Building-segmentation.git
 ```
-### 2. 2. Install dependencies
+### 2. Install dependencies
 ```bash
 pip install -r requirements_pip.txt
 ```
+### 3. Create patches
 
+- Open `project.ipynb` (using Jupyter Notebook, VS Code, or Google Colab)
+- Update the paths at the top of the notebook to point to:
+  - Your file containing orthophoto
+  - Your file containing .shp file
+- Run **only the cells up to and including the "Create Patches" section**  
+  → This will automatically:
+  - Crop large images and masks into smaller patches (e.g., 513×513)
+  - Split them into train/validation/test sets
+  - Save everything inside the `output_merged/` folder as follows:
+    - `output_merged/images/train/`, `val/`, `test/`
+    - `output_merged/masks/train/`, `val/`, `test/`
+
+**Do not run the entire notebook yet** — training and testing are done separately with `train4.py` and `testopti.py`.
 
 
 
