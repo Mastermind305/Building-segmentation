@@ -73,4 +73,8 @@ pip install -r requirements_pip.txt
 python train4.py
 ```
 
+### 5. Generate predictions
+```bash
+python testopti.py
+```
 
