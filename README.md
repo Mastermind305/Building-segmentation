@@ -68,5 +68,9 @@ pip install -r requirements_pip.txt
 
 **Do not run the entire notebook yet** — training and testing are done separately with `train4.py` and `testopti.py`.
 
+### 4. Train the model
+```bash
+python train4.py
+```
 
 
