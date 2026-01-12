@@ -77,6 +77,6 @@ python train4.py
 python testopti.py
 ```
 ### 6. Demo Video
-```End-to-end building segmentation and digitization results from drone imagery.```
+
 https://github.com/Mastermind305/Building-segmentation/blob/main/Drone-Image-Based-Landcover-Segmentation/Building%20digitization%20(1).mp4
 
