@@ -9,7 +9,6 @@ Accurate binary building footprint extraction from high-resolution drone/UAV ima
 - Task: Binary segmentation (building = 1, everything else = 0)  
 - Model: DeepLabV3 with ResNet50 encoder (pretrained on ImageNet)  
 - Fast inference, excellent boundary precision for building extraction
-**Demo Video**
 ## Project Structure
 
 ```bash
@@ -77,4 +76,6 @@ python train4.py
 ```bash
 python testopti.py
 ```
+### 6. Demo Video
+
 
