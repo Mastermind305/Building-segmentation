@@ -77,6 +77,6 @@ python train4.py
 python testopti.py
 ```
 ### 6. Demo Video
-
 https://github.com/Mastermind305/Building-segmentation/blob/main/Drone-Image-Based-Landcover-Segmentation/demoo.mp4
+
 
